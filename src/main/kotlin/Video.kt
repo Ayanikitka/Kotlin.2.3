@@ -1,6 +1,4 @@
 class Video(
-    override val type: String,
-    val id: Int = 0,
-    val userId: Int = 0
-) : Attachment {
-}
+    val name: String = "",
+    val duration: Int = 0
+)

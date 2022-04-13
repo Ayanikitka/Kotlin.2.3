@@ -1,6 +1,4 @@
 class Audio(
-    override val type: String,
-    val id: Int = 0,
-    val userId: Int = 0
-    ) : Attachment {
-}
+    val albumId: Int = 1,
+    val duration: Int = 0
+)
